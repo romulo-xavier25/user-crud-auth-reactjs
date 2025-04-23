@@ -1,0 +1,13 @@
+.header{background-color: #dddddd;}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    margin-right: 1em;
+}
+
+.item a{color: #000000;}
+.item a:hover{color: #555555;}
