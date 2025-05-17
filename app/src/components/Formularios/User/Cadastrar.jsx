@@ -18,7 +18,7 @@ function Cadastrar(){
             
             <form onSubmit={cadastrarUsuario}>
                 <p>
-                    <input type="text" name="name" placeholder="Digite seu nome completo"
+                    <input type="text" className='rounded-xs' name="name" placeholder="Digite seu nome completo"
                         onChange={(e) => setName(e.target.value)}
                     />
                 </p>
